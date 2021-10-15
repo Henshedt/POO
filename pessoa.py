@@ -1,3 +1,5 @@
+#Funções que a pessoa(p1) irá responder.
+
 from datetime import datetime
 
 class Pessoa:
@@ -11,14 +13,14 @@ class Pessoa:
 
     def falar(self, assunto):
         if self.comendo:
-            print(f'{self.nome} não pode falar enquanto mastiga fi!')
+            print(f'{self.nome} não pode falar enquanto mastiga.')
             return
 
         if self.falando:
             print(f'{self.nome} já está falando.')
             return
 
-        print(f'{self.nome} está falando sobre {assunto}!')
+        print(f'{self.nome} está falando sobre {assunto}!') #Determine o assunto.
         self.falando = True
 
     def parar_falar(self):
@@ -38,7 +40,7 @@ class Pessoa:
             print(f'{self.nome} não pode comer falando!')
             return
 
-        print(f'{self.nome} está comendo {alimento}.')
+        print(f'{self.nome} está comendo {alimento}.') #Determine o alimento.
         self.comendo = True
 
     def parar_de_comer(self):
