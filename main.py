@@ -1,7 +1,7 @@
-from pessoa import Pessoa
+from pessoa import Pessoa #Importa a classe com as funções dentro dela no file "pessoa.py".
 
-p1 = Pessoa('Gui', 22)
-p2 = Pessoa('Monique', 47)
+p1 = Pessoa('', 0) #Determine nome e idade.
 
-print(p1.ano_nascimento())
-print(p2.ano_nascimento())
+# p1.nome_da_função() Chama a função para Pessoa 1 ou Objeto.
+
+
